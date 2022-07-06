@@ -1,0 +1,352 @@
+body{
+ font-family: 'Poppins', sans-serif;
+ margin: 0;
+ padding: 0;
+}
+h1{
+    font-size: 50px;
+    margin: 0;
+}
+/* Header Style Start */
+header{
+    background-image: url(images/donation7.jpg);   
+    height: 600px;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.head{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    color: #fff;
+    padding-top: 100px;
+}
+.head h1{
+    font-weight: 800;
+}
+.head p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.head a{
+    text-decoration: none;
+    color: #FFF;
+    padding: 20px 40px;
+    background: rgb(233, 68, 68);
+    border-radius: 10px;
+    margin-top: 100px;
+}
+/* Header Style end */
+
+/* Camping Style Start */
+.donation-camping{
+    width: 80%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+.donation-camping .d-title h1{
+    font-weight: 800;
+    margin-top: 50px;
+}
+.donation-camping .d-title p{
+    width: 30%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.donation-camping .d-amount{
+    margin-top: 50px;
+    padding: 20px;
+}
+.donation-camping .d-amount a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 800;
+    background: rgb(157, 240, 239);
+    padding: 40px 40px;
+}
+#active{
+    background: rgb(53, 195, 48);
+}
+.donation-camping .custiom-amount{
+    margin-top: 50px;
+    padding: 20px;
+}
+.donation-camping .custiom-amount input{
+    width: 40%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px Solid gray;
+    display: block;
+    margin: auto;
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.donation-camping .custiom-amount a{
+    text-decoration: none;
+    color: #FFF;
+    padding: 10px 40px;
+    background: rgb(233, 68, 68);
+    border-radius: 10px;
+    margin-bottom: 50px;    
+}
+/* Camping Style end */
+
+/* Donate Plan  Style Start */
+.donate-plan{
+    width: 70%;
+    margin: auto;
+    display: block;
+
+}
+.donate-plan .dp-title{
+    text-align: center;
+    margin-top: 50px;
+}
+.donate-plan .dp-title p{
+    width: 40%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.donate-plan .dp-service{
+    display: flex;
+}
+.donate-plan .dp-service .food{
+    padding: 30px;
+    background: rgb(241, 141, 141);
+    width: 100%;
+    text-align: justify;
+}
+.donate-plan .dp-service .shelter{
+    padding: 30px;
+    background: rgb(104, 246, 161);
+    margin-left: 5px;
+    width: 100%;
+    text-align: justify;
+}
+.donate-plan .dp-service .education{
+    padding: 30px;
+    background: rgb(66, 203, 252);
+    margin-left: 5px;
+    width: 100%;
+    text-align: justify;
+}
+/* Donate Plan  Style end */
+ 
+/* Post Style Start */
+.post{
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+.post .post-1{
+    display: flex;
+    text-align: center;
+    margin-bottom: 50px;
+    margin: auto;
+}
+.post .post-1 .p-title{
+    width: 50%;
+}
+.post .post-1 .p-title p{
+    margin: auto;
+    margin-bottom: 20px;
+    width: 50%;
+
+}
+.post .post-1 .p-title{
+    margin-bottom: 50px;
+}
+.post .post-1 .p-title a{
+text-decoration: none;
+color: #FFF;
+padding: 10px 40px;
+background: rgb(233, 68, 68);
+border-radius: 10px;
+margin-bottom: 50px;
+}
+.post .post-1 .img{
+    width: 50%;
+} 
+.post .post-1 .img img{
+    width: 100%;
+    height: 400px;
+}
+.post .post-2{
+    display: flex;
+    text-align: center;
+    margin-bottom: 50px;
+    margin: auto;
+}
+.post .post-2 .p-title{
+    width: 50%;
+}
+.post .post-2 .p-title p{
+    margin: auto;
+    margin-bottom: 20px;
+    width: 50%;
+
+}
+.post .post-2 .p-title{
+    margin-bottom: 50px;
+}
+.post .post-2 .p-title a{
+text-decoration: none;
+color: #FFF;
+padding: 10px 40px;
+background: rgb(233, 68, 68);
+border-radius: 10px;
+margin-bottom: 50px;
+}
+.post .post-2 .img{
+    width: 50%;
+} 
+.post .post-2 .img img{
+    width: 100%;
+    height: 400px;
+}
+/* Post Style end */
+
+/* Why Donate Style Start */
+.whydonate{
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+.wd-problem{
+    display: block;
+    text-align: center;
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+}
+.whydonate .wd-1{
+    display: flex;
+    text-align: center;
+    margin-bottom: 50px;
+    margin: auto;
+}
+.whydonate .wd-1 .p-title{
+    width: 50%;
+}
+.whydonate .wd-1 .p-title p{
+    margin: auto;
+    margin-bottom: 20px;
+    width: 50%;
+
+}
+.whydonate .wd-1 .p-title{
+    margin-bottom: 50px;
+}
+.whydonate .wd-1 .p-title a{
+text-decoration: none;
+color: #FFF;
+padding: 10px 40px;
+background: rgb(233, 68, 68);
+border-radius: 10px;
+margin-bottom: 50px;
+}
+.whydonate .wd-1 .img{
+    width: 50%;
+} 
+.whydonate .wd-1 .img img{
+    width: 100%;
+    height: 400px;
+}
+
+.whydonate .wd-2{
+    display: flex;
+    text-align: center;
+    margin-bottom: 50px;
+    margin: auto;
+}
+.whydonate .wd-2 .p-title{
+    width: 50%;
+}
+.whydonate .wd-2 .p-title p{
+    margin: auto;
+    margin-bottom: 20px;
+    width: 50%;
+
+}
+.whydonate .wd-2 .p-title{
+    margin-bottom: 50px;
+}
+.whydonate .wd-2 .p-title a{
+text-decoration: none;
+color: #FFF;
+padding: 10px 40px;
+background: rgb(233, 68, 68);
+border-radius: 10px;
+margin-bottom: 50px;
+}
+.whydonate .wd-2 .img{
+    width: 50%;
+} 
+.whydonate .wd-2 .img img{
+    width: 100%;
+    height: 400px;
+}
+/* Why Donate Style end */
+
+
+/* Get Update Style Start */
+.update{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px; 
+}
+.update p{
+    width: 40%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.update .form{
+    margin-top: 20px;
+    width: 80%;
+    margin: auto;
+    background: rgb(240, 158, 158);
+    padding: 50px 10px 50px 10px;
+    margin-bottom: 50px;
+}
+.update .form input{
+    padding: 10px;
+    margin: auto;
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-right: 0;
+    padding-right: 0;
+    border-radius: 5px 0 0 5px;
+}
+.update .form a{
+    position: relative;
+    left: -5px;
+    text-decoration: none;
+    background: #000;
+    padding: 10px;
+    margin-left: 0;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+}
+/* Get Update Style end */
+
+/* Footer Style Start */
+.footer{
+    text-align: center;
+    background: rgb(101, 55, 55);
+    color: #fff;
+    padding: 20px;
+}
+.footer h2{
+    font-family: 'The Nautigal', cursive;
+}
+.footer p{
+    font-size: 12px;
+}
+
+/* Footer Style end */
