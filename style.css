@@ -291,7 +291,22 @@ margin-bottom: 50px;
     height: 400px;
 }
 /* Why Donate Style end */
-
+/* social-media start */
+.social-media {
+    margin: 100px auto;
+    text-align: center;
+  }
+  
+  .social-media a img {
+    width: 70px;
+    padding: 40px 10px;
+  }
+  
+  .social-media a img:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+/* social-media end */
 
 /* Get Update Style Start */
 .update{
